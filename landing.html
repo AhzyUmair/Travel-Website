@@ -1,0 +1,629 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <link rel="shortcut icon" href="img/favicon.png" type="image/png">
+
+    <!--=============== REMIXICONS ===============-->
+    <link href="https://cdn.jsdelivr.net/npm/remixicon@2.5.0/fonts/remixicon.css" rel="stylesheet">
+    
+    <!--=============== SWIPER CSS ===============-->
+    <link rel="stylesheet" href="swiper-bundle.min.css">
+
+    <!--=============== CSS ===============-->
+    <link rel="stylesheet" href="styles.css">
+
+    <title>Responsive Travel Website</title>
+</head>
+<body>
+    <header class="header" id="header">
+        <nav class="nav container">
+            <a href="#" class="nav__logo">AHZY DEVELOPS</a>
+
+            <div class="nav__menu" id="nav-menu">
+                <ul class="nav__list">
+                    <li class="nav__item">
+                        <a href="#home" class="nav__link active-link">Home</a>
+                    </li>
+                    <li class="nav__item">
+                        <a href="#about" class="nav__link">About</a>
+                    </li>
+                    <li class="nav__item">
+                        <a href="#discover" class="nav__link">Discover</a>
+                    </li>
+                    <li class="nav__item">
+                        <a href="#place" class="nav__link">Packages</a>
+                    </li>
+                    <li class="nav__item">
+                        <a href="#contact-form-cstm-rt" class="nav__link">Contact Us</a>
+                    </li>
+                </ul>
+
+                <div class="nav__dark">
+                    <!-- Theme change button -->
+                    <span class="change-theme-name">Dark mode</span>
+                    <i class="ri-moon-line change-theme" id="theme-button"></i>
+                </div>
+
+                <i class="ri-close-line nav__close" id="nav-close"></i>
+            </div>
+
+            <div class="nav__toggle" id="nav-toggle">
+                <i class="ri-function-line"></i>
+            </div>
+        </nav>
+    </header>
+
+    <main class="main">
+        <!--==================== HOME ====================-->
+        <section class="home" id="home">
+            <img src="img/home1.jpg" alt="" class="home-img" id="home-img">
+
+            <div class="home__container container grid">
+                <div class="home__data">
+                    <span class="home__data-subtitle">Discover with Us</span>
+                    <h1 class="home__data-title">Turning Your<br>Travel Dreams Into<br><b>Destinations</b></h1>
+                    <a href="#" class="button">Explore</a>
+                </div>
+
+                <div class="home__social">
+                    <a href="https://www.facebook.com/" target="_blank" class="home__social-link">
+                        <i class="ri-facebook-box-fill"></i>
+                    </a>
+                    <a href="https://www.instagram.com/" target="_blank" class="home__social-link">
+                        <i class="ri-instagram-fill"></i>
+                    </a>
+                    <a href="https://twitter.com/" target="_blank" class="home__social-link">
+                        <i class="ri-twitter-fill"></i>
+                    </a>
+                </div>
+
+                <div class="home__info">
+                    <div>
+                        <span class="home__info-title">5 best places to visit</span>
+                        <a href="" class="button button--flex button--link home__info-button">
+                            More <i class="ri-arrow-right-line"></i>
+                        </a>
+                    </div>
+
+                    <div class="home__info-overlay">
+                        <img src="img/home2.jpg" alt="" class="home__info-img">
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <!--==================== ABOUT ====================-->
+        <section class="about section" id="about">
+            <div class="about__container container grid">
+                <div class="about__data">
+                    <h2 class="section__title about__title"><b>About Us </b><br> Know Your travel Partner</h2>
+                    <p class="about__description">At XYZ, we redefine luxury travel by offering bespoke experiences that
+                        take you to the world's most incredible destinations. 
+                        With curated packages and exclusive partnerships with Qatar Airways, Fly Emirates, and top local
+                        agencies, we ensure you receive world-class service every step of the way. 
+                        Travel in style, comfort, and ease with us—because your journey deserves nothing less than 
+                        perfection.
+                    </p>
+                    <a href="#" class="button">Reserve a place</a>
+                </div>
+
+                <div class="about__img">
+                    <div class="about__img-overlay">
+                        <img src="img/about1.jpg" alt="" class="about__img-one">
+                    </div>
+
+                    <!-- <div class="about__img-overlay">
+                        <img src="img/about2.jpg" alt="" class="about__img-two">
+                    </div> -->
+                </div>
+            </div>
+        </section>
+        
+        <!--==================== DISCOVER ====================-->
+        <section class="discover section" id="discover">
+            <h2 class="section__title">Explore the finest <br> across the globe</h2>
+            
+            <div class="discover__container container swiper-container">
+                <div class="swiper-wrapper">
+                    <!--==================== DISCOVER 1 ====================-->
+                    <div class="discover__card swiper-slide">
+                        <video class="discover__img" autoplay loop muted playsinline>
+                            <source src="video/discover1.mp4" type="video/mp4">
+                            Your browser does not support the video tag.
+                        </video>
+                        <div class="discover__data">
+                            <h2 class="discover__title">Qatar</h2>
+                            <span class="discover__description">24 tours available</span>
+                        </div>
+                    </div>
+
+                    <!--==================== DISCOVER 2 ====================-->
+                    <div class="discover__card swiper-slide">
+                        <video class="discover__img" autoplay loop muted playsinline>
+                            <source src="video/discover2.mp4" type="video/mp4">
+                            Your browser does not support the video tag.
+                        </video>
+                        <div class="discover__data">
+                            <h2 class="discover__title">Dubai</h2>
+                            <span class="discover__description">15 tours available</span>
+                        </div>
+                    </div>
+
+                    <!--==================== DISCOVER 3 ====================-->
+                    <div class="discover__card swiper-slide">
+                        <video class="discover__img" autoplay loop muted playsinline>
+                            <source src="video/discover3.mp4" type="video/mp4">
+                            Your browser does not support the video tag.
+                        </video>
+                        <div class="discover__data">
+                            <h2 class="discover__title">Switzerland</h2>
+                            <span class="discover__description">18 tours available</span>
+                        </div>
+                    </div>
+
+                    <!--==================== DISCOVER 4 ====================-->
+                    <div class="discover__card swiper-slide">
+                        <video class="discover__img" autoplay loop muted playsinline>
+                            <source src="video/discover4.mp4" type="video/mp4">
+                            Your browser does not support the video tag.
+                        </video>
+                        <div class="discover__data">
+                            <h2 class="discover__title">Norway</h2>
+                            <span class="discover__description">32 tours available</span>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+         <!--==================== SPONSORS ====================-->
+         <section class="sponsor section">
+            <h2  class="section__title" >Our travel Partners</h2>
+            <div class="sponsor__container container grid">
+                <div class="sponsor__content">
+                    <img src="img/sponsors1.png" alt="" class="sponsor__img">
+                </div>
+                <div class="sponsor__content">
+                    <img src="img/sponsors2.png" alt="" class="sponsor__img">
+                </div>
+                <div class="sponsor__content">
+                    <img src="img/sponsors3.png" alt="" class="sponsor__img">
+                </div>
+                <div class="sponsor__content">
+                    <img src="img/sponsors4.png" alt="" class="sponsor__img">
+                </div>
+                <div class="sponsor__content">
+                    <img src="img/sponsors5.png" alt="" class="sponsor__img">
+                </div>
+            </div>
+        </section>
+        <!--=====================Services========================-->
+        
+        <section class="experience section" id="services">
+            <h2 class="section__title">The Luxury We Provide <br>To Elite Customers</h2>
+            <div class="services3">
+
+                <div class="service-box" data-aos="fade-right">
+                  <img src="img/service1.jpg" alt="Your Service">
+                  <h3>Private Jet and Helicopter Charters</h3>
+                  <p>For the ultimate luxury, the agency could arrange private jet or helicopter charters to transport clients directly to their destination. This service offers personalized catering, and provides flexibility in travel schedules.</p>
+                </div>
+              
+              
+              
+              
+                <div class="service-box" data-aos="fade-right">
+                  <img src="img/service2.jpg" alt="Your Service">
+                  <h3>Gourmet Culinary Experiences</h3>
+                  <p>Private chefs, gourmet cooking classes, and access to exclusive restaurants or food events, with personalized menus and rare wine pairings tailored to the client’s preferences.</p>
+                </div>
+              
+               <div class="service-box" data-aos="fade-right">
+                    <img src="img/service3.jpg" alt="Religious Tours" >
+                    <h3>Private Villas & Exclusive Accommodations</h3>
+                    <p>Accommodation in ultra-private, high-end villas or exclusive resorts with private pools, staff, chefs, and custom-designed amenities to ensure complete comfort and privacy.</p>
+                  </div>
+              
+              
+                <div class="service-box" data-aos="fade-right">
+                  <img src="img/service4.jpg" alt="Your Service">
+                  <h3>Extreme Adventure</h3>
+                  <p>For thrill-seekers, luxurious versions of extreme sports like private skydiving, extreme mountain climbing, or private underwater caves exploration, all with elite safety measures, personal instructors, and gourmet experiences.</p>
+                </div>
+
+        </section>
+
+        <!--==================== VIDEO ====================-->
+        <section class="lux section" id="lux">
+            <h2 class="section__title">Be The Part Of Global Events<br>We Ensure You Never Miss Out</h2>
+            
+            <div class="lux__container container swiper-container">
+                <div class="swiper-wrapper">
+                    <!--==================== DISCOVER 1 ====================-->
+                    <div class="lux__card swiper-slide">
+                        <video class="lux__img" autoplay loop muted playsinline>
+                            <source src="video/video.mp4" type="video/mp4">
+                            Your browser does not support the video tag.
+                        </video>
+                        <div class="lux__data">
+                            <h2 class="lux__title">FORMULA 1</h2>
+                            <span class="lux__description"></span>
+                        </div>
+                    </div>
+
+                    <!--==================== DISCOVER 2 ====================-->
+                    <div class="lux__card swiper-slide">
+                        <video class="lux__img" autoplay loop muted playsinline>
+                            <source src="video/video2.mp4" type="video/mp4">
+                            Your browser does not support the video tag.
+                        </video>
+                        <div class="lux__data">
+                            <h2 class="lux__title">PREMIER LEAGUE</h2>
+                            <span class="lux__description"></span>
+                        </div>
+                    </div>
+
+                    <!--==================== lux 3 ====================-->
+                    <div class="lux__card swiper-slide">
+                        <video class="lux__img" autoplay loop muted playsinline>
+                            <source src="video/video3.mp4" type="video/mp4">
+                            Your browser does not support the video tag.
+                        </video>
+                        <div class="lux__data">
+                            <h2 class="lux__title">Moto GP</h2>
+                            <span class="lux__description">18 tours available</span>
+                        </div>
+                    </div>
+
+                    <!--==================== lux 4 ====================-->
+                    <div class="lux__card swiper-slide">
+                        <video class="lux__img" autoplay loop muted playsinline>
+                            <source src="video/video4.mp4" type="video/mp4">
+                            Your browser does not support the video tag.
+                        </video>
+                        <div class="lux__data">
+                            <h2 class="lux__title">Worl EXPOS & SUMMITS</h2>
+                            <span class="lux__description"></span>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+        
+        
+
+        <!--==================== PLACES ====================-->
+        <section class="place section" id="place">
+            <h2 class="section__title">Explore the packages</h2>
+
+            <div class="place__container container grid">
+                <!--==================== PLACES CARD 1 ====================-->
+                <div class="place__card">
+                    <img src="img/place1.jpg" alt="" class="place__img">
+                    
+                    <div class="place__content">
+                        <span class="place__rating">
+                            <i class="ri-star-line place__rating-icon"></i>
+                            <span class="place__rating-number">4,8</span>
+                        </span>
+
+                        <div class="place__data">
+                            <h3 class="place__title">Doha</h3>
+                            <span class="place__subtitle">Qatar</span>
+                            <span class="place__price">$2499</span>
+                        </div>
+                    </div>
+
+                    <button class="button button--flex place__button">
+                        <i class="ri-arrow-right-line"></i>
+                    </button>
+                </div>
+
+                <!--==================== PLACES CARD 2 ====================-->
+                <div class="place__card">
+                    <img src="img/place2.jpg" alt="" class="place__img">
+                    
+                    <div class="place__content">
+                        <span class="place__rating">
+                            <i class="ri-star-line place__rating-icon"></i>
+                            <span class="place__rating-number">5,0</span>
+                        </span>
+
+                        <div class="place__data">
+                            <h3 class="place__title">Dubai</h3>
+                            <span class="place__subtitle">UAE</span>
+                            <span class="place__price">$3000</span>
+                        </div>
+                    </div>
+
+                    <button class="button button--flex place__button">
+                        <i class="ri-arrow-right-line"></i>
+                    </button>
+                </div>
+
+                <!--==================== PLACES CARD 3 ====================-->
+                <div class="place__card">
+                    <img src="img/place3.jpg" alt="" class="place__img">
+                    
+                    <div class="place__content">
+                        <span class="place__rating">
+                            <i class="ri-star-line place__rating-icon"></i>
+                            <span class="place__rating-number">4,9</span>
+                        </span>
+
+                        <div class="place__data">
+                            <h3 class="place__title">Paris</h3>
+                            <span class="place__subtitle">France</span>
+                            <span class="place__price">$3499</span>
+                        </div>
+                    </div>
+
+                    <button class="button button--flex place__button">
+                        <i class="ri-arrow-right-line"></i>
+                    </button>
+                </div>
+
+                <!--==================== PLACES CARD 4 ====================-->
+                <div class="place__card">
+                    <img src="img/place4.jpg" alt="" class="place__img">
+                    
+                    <div class="place__content">
+                        <span class="place__rating">
+                            <i class="ri-star-line place__rating-icon"></i>
+                            <span class="place__rating-number">4,8</span>
+                        </span>
+
+                        <div class="place__data">
+                            <h3 class="place__title">Zermatt</h3>
+                            <span class="place__subtitle">Switzerland</span>
+                            <span class="place__price">$3700</span>
+                        </div>
+                    </div>
+
+                    <button class="button button--flex place__button">
+                        <i class="ri-arrow-right-line"></i>
+                    </button>
+                </div>
+
+                <!--==================== PLACES CARD 5 ====================-->
+                <div class="place__card">
+                    <img src="img/place5.jpg" alt="" class="place__img">
+                    
+                    <div class="place__content">
+                        <span class="place__rating">
+                            <i class="ri-star-line place__rating-icon"></i>
+                            <span class="place__rating-number">4,8</span>
+                        </span>
+
+                        <div class="place__data">
+                            <h3 class="place__title">Venice</h3>
+                            <span class="place__subtitle">Italy</span>
+                            <span class="place__price">$1999</span>
+                        </div>
+                    </div>
+
+                    <button class="button button--flex place__button">
+                        <i class="ri-arrow-right-line"></i>
+                    </button>
+                </div>
+                <div class="place__card">
+                    <img src="img/place6.jpg" alt="" class="place__img">
+                    
+                    <div class="place__content">
+                        <span class="place__rating">
+                            <i class="ri-star-line place__rating-icon"></i>
+                            <span class="place__rating-number">4,8</span>
+                        </span>
+
+                        <div class="place__data">
+                            <h3 class="place__title">Tokyo</h3>
+                            <span class="place__subtitle">Japan</span>
+                            <span class="place__price">$1700</span>
+                        </div>
+                    </div>
+
+                    <button class="button button--flex place__button">
+                        <i class="ri-arrow-right-line"></i>
+                    </button>
+                </div>
+            </div>
+        </section>
+        <!--====================Contact Us=====================-->
+        <section class="contact section" id="contact-form-cstm-rt">
+            <h2 class="section__title">Contact Us</h2>
+            <p class="section__subtitle">Plan your trip with us - fill out the form below!</p>
+            <div class="contact__container-cstm-rt container">
+                <form class="contact__form-cstm-rt" action="#" method="post">
+                    <div class="contact__inputs-cstm-rt">
+                        <div class="contact__input-group-cstm-rt">
+                            <label for="contact-name-cstm-rt" class="contact__label-cstm-rt">Full Name</label>
+                            <input type="text" id="contact-name-cstm-rt" name="name" class="contact__input-cstm-rt" placeholder="Your Name" required>
+                        </div>
+                        <div class="contact__input-group-cstm-rt">
+                            <label for="contact-email-cstm-rt" class="contact__label-cstm-rt">Email</label>
+                            <input type="email" id="contact-email-cstm-rt" name="email" class="contact__input-cstm-rt" placeholder="your@email.com" required>
+                        </div>
+                        <div class="contact__input-group-cstm-rt">
+                            <label for="contact-mobile-cstm-rt" class="contact__label-cstm-rt">Mobile Number</label>
+                            <input type="tel" id="contact-mobile-cstm-rt" name="mobile" class="contact__input-cstm-rt" placeholder="e.g. +1234567890" required pattern="^[+0-9\s\-()]{7,}$">
+                        </div>
+                        <div class="contact__input-group-cstm-rt">
+                            <label for="contact-country-cstm-rt" class="contact__label-cstm-rt">Country to Visit</label>
+                            <select id="contact-country-cstm-rt" name="country" class="contact__input-cstm-rt" required>
+                                <option value="" disabled selected>Select Country</option>
+                                <option value="france">France</option>
+                                <option value="italy">Italy</option>
+                                <option value="japan">Japan</option>
+                                <option value="greece">Greece</option>
+                                <option value="spain">Spain</option>
+                                <option value="egypt">Egypt</option>
+                                <option value="qatar">Qatar</option>
+                                <option value="australia">Australia</option>
+                                <option value="usa">USA</option>
+                                <option value="uk">United Kingdom</option>
+                                <option value="china">China</option>
+                                <option value="turkey">Turkey</option>
+                                <option value="thailand">Thailand</option>
+                                <option value="mexico">Mexico</option>
+                                <option value="germany">Germany</option>
+                                <option value="indonesia">Indonesia</option>
+                                <option value="canada">Canada</option>
+                                <option value="morocco">Morocco</option>
+                                <option value="uae">United Arab Emirates</option>
+                                <option value="south-africa">South Africa</option>
+                                <option value="portugal">Portugal</option>
+                                <option value="new-zealand">New Zealand</option>
+                                <option value="malaysia">Malaysia</option>
+                                <option value="switzerland">Switzerland</option>
+                                <option value="austria">Austria</option>
+                                <option value="netherlands">Netherlands</option>
+                                <option value="singapore">Singapore</option>
+                                <option value="maldives">Maldives</option>
+                                <option value="brazil">Brazil</option>
+                                <option value="other">Other</option>
+                            </select>
+                        </div>
+                        <div class="contact__input-group-cstm-rt">
+                            <label for="contact-package-cstm-rt" class="contact__label-cstm-rt">Package Type</label>
+                            <select id="contact-package-cstm-rt" name="package" class="contact__input-cstm-rt" required>
+                                <option value="" disabled selected>Select Package</option>
+                                <option value="elite">Elite Package</option>
+                                <option value="premium">Premium Package</option>
+                                <option value="luxury">Luxury Package</option>
+                                <option value="global">Global Events Package</option>
+                            </select>
+                        </div>
+                        <div class="contact__input-group-cstm-rt">
+                            <label for="contact-members-cstm-rt" class="contact__label-cstm-rt">Number of Members</label>
+                            <input type="number" min="1" max="100" id="contact-members-cstm-rt" name="members" class="contact__input-cstm-rt" placeholder="e.g. 4" required>
+                        </div>
+                        <div class="contact__input-group-cstm-rt contact__input-group--full-cstm-rt">
+                            <label for="contact-message-cstm-rt" class="contact__label-cstm-rt">Additional Message</label>
+                            <textarea id="contact-message-cstm-rt" name="message" class="contact__input-cstm-rt" rows="4" placeholder="Anything else you want to tell us?"></textarea>
+                        </div>
+                    </div>
+                    <button type="submit" class="button contact__button-cstm-rt">Submit</button>
+                </form>
+            </div>
+        </section>
+        <!--==================== SUBSCRIBE ====================-->
+        <section class="subscribe section" id="contact">
+            <div class="subscribe__bg">
+                <div class="subscribe__container container">
+                    <h2 class="section__title subscribe__title">Subscribe Our <br> Newsletter</h2>
+                    <p class="subscribe__description">Subscribe to our newsletter and get a 
+                        special 30% discount.
+                    </p>
+
+                    <form action="" class="subscribe__form">
+                        <input type="text" placeholder="Enter email" class="subscribe__input">
+
+                        <button class="button">
+                            Subscribe
+                        </button>
+                    </form>
+                </div>
+            </div>
+        </section>
+        
+       
+    </main>
+
+    <!--==================== FOOTER ====================-->
+    <footer class="footer section">
+        <div class="footer__container container grid">
+            <div class="footer__content grid">
+                <div class="footer__data">
+                    <h3 class="footer__title">Travel</h3>
+                    <p class="footer__description">Travel you choose the <br> destination, 
+                        we offer you the <br> experience.
+                    </p>
+                    <div>
+                        <a href="https://www.facebook.com/" target="_blank" class="footer__social">
+                            <i class="ri-facebook-box-fill"></i>
+                        </a>
+                        <a href="https://twitter.com/" target="_blank" class="footer__social">
+                            <i class="ri-twitter-fill"></i>
+                        </a>
+                        <a href="https://www.instagram.com/" target="_blank" class="footer__social">
+                            <i class="ri-instagram-fill"></i>
+                        </a>
+                        <a href="https://www.youtube.com/" target="_blank" class="footer__social">
+                            <i class="ri-youtube-fill"></i>
+                        </a>
+                    </div>
+                </div>
+
+                <div class="footer__data">
+                    <h3 class="footer__subtitle">About</h3>
+                    <ul>
+                        <li class="footer__item">
+                            <a href="#about" class="footer__link">About Us</a>
+                        </li>
+                        <li class="footer__item">
+                            <a href="#services" class="footer__link">Services</a>
+                        </li>
+                        <li class="footer__item">
+                            <a href="" class="footer__link">New & Blog</a>
+                        </li>
+                    </ul>
+                </div>
+
+                <div class="footer__data">
+                    <h3 class="footer__subtitle">Company</h3>
+                    <ul>
+                        <li class="footer__item">
+                            <a href="" class="footer__link">Team</a>
+                        </li>
+                        <li class="footer__item">
+                            <a href="#place" class="footer__link">Packages</a>
+                        </li>
+                        <li class="footer__item">
+                            <a href="" class="footer__link">Become a member</a>
+                        </li>
+                    </ul>
+                </div>
+
+                <div class="footer__data">
+                    <h3 class="footer__subtitle">Support</h3>
+                    <ul>
+                        <li class="footer__item">
+                            <a href="" class="footer__link">FAQs</a>
+                        </li>
+                        <li class="footer__item">
+                            <a href="" class="footer__link">Support Center</a>
+                        </li>
+                        <li class="footer__item">
+                            <a href="#contact-form-cstm-rt" class="footer__link">Contact Us</a>
+                        </li>
+                    </ul>
+                </div>
+            </div>
+
+            <div class="footer__rights">
+                <p class="footer__copy">&#169; 2025 Ahzy Develops. All rigths reserved.</p>
+                <div class="footer__terms">
+                    <a href="#" class="footer__terms-link">Terms & Agreements</a>
+                    <a href="#" class="footer__terms-link">Privacy Policy</a>
+                </div>
+            </div>
+        </div>
+    </footer>
+
+     <!--========== SCROLL UP ==========-->
+    <a href="#" class="scrollup" id="scroll-up">
+        <i class="ri-arrow-up-line scrollup__icon"></i>
+    </a>
+
+    <!--=============== SCROLL REVEAL===============-->
+    <script src="js/scrollreveal.min.js"></script>
+    
+    <!--=============== SWIPER JS ===============-->
+    <script src="js/swiper-bundle.min.js"></script>
+
+    <!--=============== MAIN JS ===============-->
+    <script src="js/main.js"></script>
+</body>
+</html>
