@@ -62,8 +62,5 @@ travel-website/
     ├── discover1-4.mp4
     └── video1-4.mp4
 
-🛠️ Installation & Setup
 
-Clone the repository
-git clone https://github.com/yourusername/travel-website.git
     
