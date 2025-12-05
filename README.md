@@ -1,7 +1,9 @@
 # Travel-Website
 🌍 Responsive Travel Website
 A modern, fully responsive travel agency website featuring luxury travel packages, global event experiences, and premium services. Built with HTML5, CSS3, and JavaScript with smooth animations and an intuitive user interface.
+
 ✨ Features
+
 🎨 Design & UI
 
 Fully Responsive Design - Optimized for mobile, tablet, and desktop devices
@@ -37,30 +39,8 @@ Swiper.js - Touch-enabled slider/carousel
 ScrollReveal.js - Scroll animation library
 RemixIcon - Icon library for UI elements
 
-File Structure
-travel-website/
-│
-├── index.html
-├── styles.css
-├── swiper-bundle.min.css
-│
-├── js/
-│   ├── main.js
-│   ├── swiper-bundle.min.js
-│   └── scrollreveal.min.js
-│
-├── img/
-│   ├── favicon.png
-│   ├── home1.jpg
-│   ├── home2.jpg
-│   ├── about1.jpg
-│   ├── place1-6.jpg
-│   ├── service1-4.jpg
-│   └── sponsors1-5.png
-│
-└── video/
-    ├── discover1-4.mp4
-    └── video1-4.mp4
+
+    
 
 
     
